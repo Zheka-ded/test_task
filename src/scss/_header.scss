@@ -1,0 +1,64 @@
+.header{
+
+    &__top{
+        width: 94.7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+        &-menu{
+            
+            &-link{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+                &-img{
+                    width: 51px;
+                    height: 48px;
+                    margin: 45px 45px 45px 0px;
+                }
+
+            }
+
+        }
+
+        &-box{
+
+            &-link{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                &-img{
+                    width: 70px;
+                    height: 60px;
+                    margin: 0px 0px 0px 45px;
+                }
+
+            }
+            
+        }
+
+    }
+
+    &__intro{
+
+        background: url('../img/Layer 772.png');
+        // background-size: cover;
+        // background-position: center;
+        height: 700px;
+        // margin: 0 auto;
+        // max-height: 700px;
+
+        &-wrap{
+            width: 44%;
+            // margin: 0 auto;
+            margin: auto;
+        }
+
+    }
+
+}

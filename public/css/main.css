@@ -1,0 +1,103 @@
+.page {
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Overpass Mono', monospace; }
+  .page__wrap {
+    max-width: 3849px;
+    margin: 0 auto; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+.header__link-fonts {
+  font-family: 'Rubik', sans-serif;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #2d1b45; }
+
+.header__intro-title-text {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #4d008c;
+  text-align: center; }
+
+.header__intro-subtitle-text {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+  font-size: 48px;
+  color: #424242;
+  text-align: center; }
+
+.header__top {
+  width: 94.7%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto; }
+  .header__top-menu-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header__top-menu-link-img {
+      width: 51px;
+      height: 48px;
+      margin: 45px 45px 45px 0px; }
+  .header__top-box-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header__top-box-link-img {
+      width: 70px;
+      height: 60px;
+      margin: 0px 0px 0px 45px; }
+
+.header__intro {
+  background: url("../img/Layer 772.png");
+  height: 700px; }
+  .header__intro-wrap {
+    width: 44%;
+    margin: auto; }

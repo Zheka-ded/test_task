@@ -1,0 +1,18 @@
+.page{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Over the Rainbow', cursive;
+    font-family: 'Overpass Mono', monospace;
+
+    &__wrap{
+        max-width: 3849px;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+@import 'reset';
+@import 'fonts';
+@import 'header';
