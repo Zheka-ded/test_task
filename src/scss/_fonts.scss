@@ -23,12 +23,24 @@
         &-subtitle-text{
             font-family: 'Rubik', sans-serif;
             font-weight: 100;
-            // font-family: 'Overpass Mono', monospace;
             font-size: 48px;
+            line-height: 1.2;
             color: #424242;
             text-align: center;
         }
 
+    }
+
+    &__nav-fonts{
+        font-family: 'Rubik', sans-serif;
+        font-size: 48px;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        color: #4e4e4e;
+        // background: greenyellow;
+        // padding: 50px 150px;
+        // margin: 50px 150px;
     }
 
 }

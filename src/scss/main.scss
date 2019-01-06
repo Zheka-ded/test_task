@@ -4,7 +4,8 @@
     font-family: 'Overpass Mono', monospace;
 
     &__wrap{
-        max-width: 3849px;
+        // max-width: 3849px;
+        width: 100%;
         margin: 0 auto;
     }
 

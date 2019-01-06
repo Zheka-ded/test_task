@@ -3,7 +3,7 @@
   font-family: 'Over the Rainbow', cursive;
   font-family: 'Overpass Mono', monospace; }
   .page__wrap {
-    max-width: 3849px;
+    width: 100%;
     margin: 0 auto; }
 
 * {
@@ -35,11 +35,20 @@ ul, li {
   font-family: 'Rubik', sans-serif;
   font-weight: 100;
   font-size: 48px;
+  line-height: 1.2;
   color: #424242;
   text-align: center; }
 
+.header__nav-fonts {
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  color: #4e4e4e; }
+
 .header__top {
-  width: 94.7%;
+  width: 90.3%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -96,8 +105,49 @@ ul, li {
       margin: 0px 0px 0px 45px; }
 
 .header__intro {
-  background: url("../img/Layer 772.png");
-  height: 700px; }
-  .header__intro-wrap {
+  background-image: url("../img/Layer 772.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: bottom; }
+  .header__intro-content {
     width: 44%;
-    margin: auto; }
+    margin: auto;
+    padding: 160px 0px 245px 0px; }
+  .header__intro-title-text {
+    padding-bottom: 60px; }
+
+.header__nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 58.2%;
+  margin: 0 auto; }
+  .header__nav-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: red;
+    padding: 50px 0px;
+    width: 25%;
+    border-left: 1px solid black; }
