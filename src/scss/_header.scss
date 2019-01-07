@@ -1,5 +1,7 @@
 .header{
 
+    // !!! HEADER TOP STYLE !!! //
+
     &__top{
         width: 90.3%;
         display: flex;
@@ -44,6 +46,8 @@
 
     }
 
+    // !!! HEADER INTRO STYLE !!! //
+
     &__intro{
 
         background-image: url('../img/Layer 772.png');
@@ -63,39 +67,38 @@
 
     }
 
+    // !!! HEADER NAV STYLE !!! //
+
     &__nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 58.2%;
         margin: 0 auto;
-        // margin: auto;
 
         &-item{
             display: flex;
             flex-direction: row;
             justify-content: center;
-            background: red;
-            padding: 50px 0px;
             width: 25%;
-            border-left: 1px solid black;
-            // margin: 0 auto;
+            border-left: 1px solid #dbdbdb;
+
+            &-link{
+                width: 100%;
+                height: 100%;
+                padding: 50px 0px;
+            }
+
+            &-link:hover{
+                background: #54326a;
+                color: #fff;
+            }
+
         }
-        // &-ul{
-        //     display: flex;
-        //     flex-direction: row;
-        //     // justify-content: space-between;
-        //     justify-content: center;
 
-        //     &-ul{
-        //         // width: 25%;
-        //     }
-
-        // }
-
-        // &-link{
-        //     width: 25%;
-        // }
+        &-item:first-child{
+            border-left: none;
+        }
 
     }
 

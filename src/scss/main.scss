@@ -4,8 +4,9 @@
     font-family: 'Overpass Mono', monospace;
 
     &__wrap{
-        // max-width: 3849px;
-        width: 100%;
+        // max-width: 1900px;
+        max-width: 3849px;
+        // width: 100%;
         margin: 0 auto;
     }
 
@@ -17,3 +18,5 @@
 @import 'reset';
 @import 'fonts';
 @import 'header';
+@import 'about-products';
+@import 'ingredients';

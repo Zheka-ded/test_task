@@ -38,9 +38,81 @@
         line-height: 1.2;
         text-align: center;
         color: #4e4e4e;
-        // background: greenyellow;
-        // padding: 50px 150px;
-        // margin: 50px 150px;
+    }
+
+}
+
+// !!! ABOUT FONTS !!! //
+.about{
+
+    &__title-text{
+        font-family: 'Rubik', sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        color: #282828;
+        line-height: 1.3;
+
+        &-span{
+            font-size: 60px;
+            font-weight: 900;
+            color: #fd54cf;
+        }
+
+    }
+
+    &__subtitle-text{
+        font-family: 'Rubik', sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        color: #282828;
+        line-height: 1.5;
+
+    }
+
+}
+
+// !!! INGREDIENTS FONTS !!! //
+.ingredients{
+
+    &__title-top{
+        font-family: 'Rubik', sans-serif;
+        font-size: 72px;
+        text-align: center;
+        color: #4d008c;
+    }
+
+    &__block{
+
+        &-description{
+
+            &-title-text{
+                font-family: 'Over the Rainbow', cursive;
+                font-size: 109px;
+                line-height: 1.4;
+                color: #4d008c;
+                text-align: left;
+            }
+
+            &-subtitle-text{
+                font-family: 'Rubik', sans-serif;
+                font-size: 36px;
+                line-height: 1.2;
+                text-align: left;
+            }
+
+            &-found-text{
+                font-family: 'Rubik', sans-serif;
+                font-size: 36px;
+                font-weight: 900;
+                line-height: 1.2;
+                text-align: left;
+            }
+
+        }
+
     }
 
 }

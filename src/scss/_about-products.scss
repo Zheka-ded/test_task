@@ -1,0 +1,23 @@
+.about-products{
+    
+}
+
+.about{
+
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 150px;
+        padding-bottom: 200px;
+    }
+
+    &__title-text{
+        padding-bottom: 30px;
+    }
+
+    &__subtitle-text{
+
+    }
+
+}
