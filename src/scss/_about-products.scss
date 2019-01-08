@@ -8,12 +8,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 150px;
-        padding-bottom: 200px;
+        // padding-top: 150px;
+        padding-top: 7.5rem;
+        // padding-bottom: 200px;
+        padding-bottom: 10rem;
     }
 
     &__title-text{
-        padding-bottom: 30px;
+        // padding-bottom: 30px;
+        padding-bottom: 1.5rem;
     }
 
     &__subtitle-text{

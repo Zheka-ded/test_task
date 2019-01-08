@@ -1,12 +1,38 @@
+html{
+    font-size: 10px;
+}
+
+@media (min-width: 2400px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1240px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 1020px) {
+    html{
+        font-size: 6px;
+    }
+}
+
+
 .page{
     font-family: 'Rubik', sans-serif;
     font-family: 'Over the Rainbow', cursive;
     font-family: 'Overpass Mono', monospace;
+    font-size: 1.6rem;
 
     &__wrap{
         // max-width: 1900px;
-        max-width: 3849px;
+        // max-width: 3849px;
         // width: 100%;
+        max-width: 192rem;
+        min-width: 32rem;
         margin: 0 auto;
     }
 
