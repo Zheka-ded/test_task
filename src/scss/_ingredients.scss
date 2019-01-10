@@ -138,3 +138,35 @@
         width: 67%;
     }
 }
+
+@media (max-width: 700px) {
+    .ingredients{
+
+        &__block{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &-reverse{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            &-wrap{
+                display: flex;
+                width: 90%;
+
+                &-reverse{
+                    display: flex;
+                    width: 90%;
+                }
+
+            }
+
+        }
+        
+    }
+}

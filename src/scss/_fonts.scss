@@ -129,3 +129,29 @@
     }
 
 }
+
+@media (max-width: 700px) {
+    .ingredients{
+
+        &__block{
+
+            &-description{
+
+                &-title-text{
+                    text-align: center;
+                }
+
+                &-subtitle-text{
+                    text-align: center;
+                }
+
+                &-found-text{
+                    text-align: center;
+                }
+
+            }
+
+        }
+
+    }
+}
