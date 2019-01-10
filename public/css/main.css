@@ -23,7 +23,7 @@ html {
   font-family: 'Overpass Mono', monospace;
   font-size: 1.6rem; }
   .page__wrap {
-    max-width: 192rem;
+    width: 100%;
     min-width: 32rem;
     margin: 0 auto; }
 
@@ -387,8 +387,8 @@ ul, li {
         -webkit-box-shadow: 1rem 1.6rem 1rem 0.1rem rgba(0, 0, 0, 0.1);
                 box-shadow: 1rem 1.6rem 1rem 0.1rem rgba(0, 0, 0, 0.1); }
       .ingredients__block-background-img-picture {
-        width: 80%;
-        height: 87%; }
+        max-width: 39.3rem;
+        max-height: 24.3rem; }
     .ingredients__block-description {
       padding-right: 7%; }
       .ingredients__block-description-reverse {
@@ -444,10 +444,18 @@ ul, li {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      width: 90%; }
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 80%; }
       .ingredients__block-wrap-reverse {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        width: 90%; } }
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 80%; } }

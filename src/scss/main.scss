@@ -36,8 +36,8 @@ html{
     &__wrap{
         // max-width: 1900px;
         // max-width: 3849px;
-        // width: 100%;
-        max-width: 192rem;
+        width: 100%;
+        // max-width: 192rem;
         min-width: 32rem;
         margin: 0 auto;
     }
@@ -52,3 +52,5 @@ html{
 @import 'header';
 @import 'about-products';
 @import 'ingredients';
+@import 'skincare';
+@import 'explained';
