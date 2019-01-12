@@ -1,0 +1,15 @@
+.subscription{
+    &__item{
+        &-picture{
+            &-top{
+                display: flex;
+                // width: 5rem;
+                height: 5rem;
+                // height: 100%;
+                background: url('../img/Vector Smart Object ok.png') no-repeat;
+                // background-size: contain;
+                filter: brightness(1) invert(1);
+            }
+        }
+    }
+}

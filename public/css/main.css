@@ -606,3 +606,13 @@ ul, li {
     padding-bottom: 5.5rem; }
   .explained__description {
     padding-bottom: 2.5rem; }
+
+.subscription__item-picture-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+  background: url("../img/Vector Smart Object ok.png") no-repeat;
+  -webkit-filter: brightness(1) invert(1);
+          filter: brightness(1) invert(1); }
