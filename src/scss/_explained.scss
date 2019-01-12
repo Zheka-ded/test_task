@@ -1,3 +1,23 @@
 .explained{
+    width: 58%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 7.5rem;
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__top{
+        padding-bottom: 5.5rem;
+        &-text{
+
+        }
+
+    }
+
+    &__description{
+        padding-bottom: 2.5rem;
+    }
     
 }

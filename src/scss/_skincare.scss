@@ -1,3 +1,70 @@
 .skincare{
+    padding-top: 18rem;
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    &__border{
+        display: flex;
+        flex-direction: column;
+        width: 67%;
+        // background: url('../img/Vector Smart Object copy 34.png') repeat-y, url('../img/Vector Smart Object copy 35.png') repeat-y 100% 0;
+        background: url('../img/Vector Smart Object copy 34.png') left no-repeat, url('../img/Vector Smart Object copy 35.png') right no-repeat;
+        // background: url('../img/Vector Smart Object copy 34.png') bottom left;
+        // background: url('../img/Vector Smart Object copy 35.png') top right;
+        // background-repeat: no-repeat;
+        background-size: contain;
+        padding: 1%;
+        // padding-left: 1%;
+        // padding-right: 1%;
+        // margin: 1%;
+        // position: relative;
+        // left: 10%;
+
+        &-content{
+            background: #512e91;
+            // opacity: 0.5;
+            // padding: 7.5rem 16%;
+            padding: 7.5rem 0rem;
+
+            &-top{
+                width: 68%;
+                margin: 0 auto;
+            }
+
+            &-bottom{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+        }
+
+    }
+
+    &__top-text{
+        padding-bottom: 4.25rem;
+    }
+
+    &__title-text{
+        padding-bottom: 2.5rem;
+    }
+
+    &__subtitle-text{
+        padding-bottom: 4.6rem;
+    }
+
+    &__list{
+        padding: 0rem 0.9rem;
+    }
     
+}
+
+@media (min-width: 2400px) {
+    .skincare__border-content-top{
+        width: 50%;
+    }
 }

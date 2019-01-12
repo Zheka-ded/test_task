@@ -46,6 +46,16 @@
 
 }
 
+@media (max-width: 639px) {
+    .header{
+
+        &__link-fonts{
+            font-size: 0rem;
+        }
+
+    }
+}
+
 // !!! ABOUT FONTS !!! //
 .about{
 
@@ -154,4 +164,80 @@
         }
 
     }
+}
+
+// !!! SKINCARE FONTS !!! //
+
+.skincare{
+
+    &__top-text{
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.75rem;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+    }
+
+    &__title-text{
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.15rem;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+    }
+
+    &__title-span{
+        color: #fd54cf;
+    }
+
+    &__subtitle-text{
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.8rem;
+        line-height: 1.2;
+        color: #fff;
+        text-align: center;
+    }
+
+    &__list-text{
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    &__list-span{
+        font-weight: 900;
+    }
+
+}
+
+// !!! EXPLAINED FONTS !!! //
+.explained{
+
+    &__title-top{
+        font-family: 'Rubik', sans-serif;
+        font-size: 3.5rem;
+        text-align: center;
+        color: #4d008c;
+    }
+
+    &__description{
+
+        &-title-text{
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #000;
+        }
+
+        &-subtitle-text{
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.4rem;
+            color: #363636;
+            line-height: 1.3;
+        }
+
+    }
+
 }

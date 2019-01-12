@@ -114,3 +114,13 @@
     }
 
 }
+
+@media (max-width: 700px) {
+    .header{
+
+        &__nav{
+            display: none;
+        }
+
+    }
+}

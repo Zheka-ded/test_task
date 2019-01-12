@@ -68,6 +68,10 @@ ul, li {
   text-align: center;
   color: #4e4e4e; }
 
+@media (max-width: 639px) {
+  .header__link-fonts {
+    font-size: 0rem; } }
+
 .about__title-text {
   font-family: 'Rubik', sans-serif;
   font-size: 3rem;
@@ -124,6 +128,58 @@ ul, li {
     text-align: center; }
   .ingredients__block-description-found-text {
     text-align: center; } }
+
+.skincare__top-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.75rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center; }
+
+.skincare__title-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center; }
+
+.skincare__title-span {
+  color: #fd54cf; }
+
+.skincare__subtitle-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: #fff;
+  text-align: center; }
+
+.skincare__list-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #fff; }
+
+.skincare__list-span {
+  font-weight: 900; }
+
+.explained__title-top {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #4d008c; }
+
+.explained__description-title-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000; }
+
+.explained__description-subtitle-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4rem;
+  color: #363636;
+  line-height: 1.3; }
 
 .header__top {
   width: 90.3%;
@@ -235,6 +291,10 @@ ul, li {
       color: #fff; }
   .header__nav-item:first-child {
     border-left: none; }
+
+@media (max-width: 700px) {
+  .header__nav {
+    display: none; } }
 
 .about__wrap {
   display: -webkit-box;
@@ -459,3 +519,90 @@ ul, li {
             -ms-flex-pack: center;
                 justify-content: center;
         width: 80%; } }
+
+.skincare {
+  padding-top: 18rem; }
+  .skincare__wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .skincare__border {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 67%;
+    background: url("../img/Vector Smart Object copy 34.png") left no-repeat, url("../img/Vector Smart Object copy 35.png") right no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    padding: 1%; }
+    .skincare__border-content {
+      background: #512e91;
+      padding: 7.5rem 0rem; }
+      .skincare__border-content-top {
+        width: 68%;
+        margin: 0 auto; }
+      .skincare__border-content-bottom {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+  .skincare__top-text {
+    padding-bottom: 4.25rem; }
+  .skincare__title-text {
+    padding-bottom: 2.5rem; }
+  .skincare__subtitle-text {
+    padding-bottom: 4.6rem; }
+  .skincare__list {
+    padding: 0rem 0.9rem; }
+
+@media (min-width: 2400px) {
+  .skincare__border-content-top {
+    width: 50%; } }
+
+.explained {
+  width: 58%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 7.5rem; }
+  .explained__wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .explained__top {
+    padding-bottom: 5.5rem; }
+  .explained__description {
+    padding-bottom: 2.5rem; }
