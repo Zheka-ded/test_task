@@ -1,43 +1,30 @@
 .subscription{
-    // display: flex;
-    // margin: 0 auto;
-    // width: 100%;
 
     &__wrap{
         display: flex;
         flex-direction:column;
-        // justify-content: center;
-        // align-items: center;
-        // margin: 0 auto;
     }
 
     &__title{
 
     }
 
-    &__img{
-        // width: 3.3rem;
-        // height: 3.25rem;
-        // filter: brightness(1) invert(1);
-    }
-
     &__bg{
         width: 100%;
         background-image: url('../img/Vector Smart Object copy 101.png');
-        background-size: inherit;
+        background-size: contain;
     }
 
     &__item{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 67%;
+        align-items: flex-end;
+        width: 65%;
         margin: 0 auto;
 
         &-text{
             display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
             align-items: center;
             width: 60%;
         }
@@ -45,34 +32,27 @@
         &-circle{
             width: 13.2rem;
             height: 13.2rem;
-            border: 0.1rem solid #c5508a;
             border-radius: 50%;
             background-color: #c5508a;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 2rem;
+            margin: 11rem 2rem 11rem 5rem;
         }
 
         &-picture{
             display: flex;
             flex-direction: column;
+            align-items: center;
             width: 40%;
-            // margin: auto;
 
             &-ok{
-                // display: flex;
-                // justify-content: center;
                 background-image: url('../img/Vector Smart Object ok.png');
+                background-size: contain;
                 background-repeat: no-repeat;
-                // background-size: cover;
-                // background-size: contain;
                 background-position: center;
-                // width: 3.3rem;
                 height: 3.25rem;
                 filter: brightness(1) invert(1);
-                // padding: 0rem;
-                // margin: 0rem;
                 transform: translateY(-100%);
             }
 
@@ -80,31 +60,107 @@
                 display: flex;
                 flex-direction: row;
                 align-items: flex-end;
+                transform: translateY(8%);
             }
 
             &-product_1{
                 width: 12.75rem;
                 height: 13.75rem;
                 background-image: url('../img/Layer 3 copy 7.png');
-                background-size: auto, contain;
+                background-size: cover;
             }
 
             &-product_2{
                 width: 19.85rem;
-                height: 18.9rem;
+                height: 18.4rem;
                 background-image: url('../img/Layer 9 copy 6.png');
+                background-size: cover;
+                margin: 0rem 3rem;
             }
 
             &-product_3{
                 width: 12rem;
-                height: 13.3rem;
+                height: 13rem;
                 background-image: url('../img/AcneEdit_Toner_SlimWell_front copy 2.png');
+                background-size: cover;
             }
 
             &-woman{
                 width: 32rem;
                 height: 35.1rem;
                 background-image: url('../img/Layer 163.png');
+                background-size: cover;
+                margin-top: 1.5rem;
+            }
+
+            &-product_4{
+                width: 36.6rem;
+                height: 34rem;
+                background-image: url('../img/Layer 9 copy 6.png');
+                background-size: cover;
+                transform: translateY(8%);
+            }
+
+        }
+
+    }
+
+    &__short{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4rem;
+
+        &-item{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding-bottom: 1rem;
+
+            &-cursor{
+                width: 7.85rem;
+                height: 8.75rem;
+                background: url('../img/Vector Smart Object hand.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                padding-left: 8rem;
+            }
+
+            &-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            &-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 13.65rem;
+                height: 13.65rem;
+                border-radius: 25%;
+                background-color: #4d008c;
+                margin: 0rem 0.5rem;
+
+                &-1{
+                    width: 9.3rem;
+                    height: 5.5rem;
+                    background: url('../img/Vector Smart Object23.png') no-repeat;
+                    background-size: cover;
+                }
+
+                &-2{
+                    width: 5.25rem;
+                    height: 5.25rem;
+                    background: url('../img/Vector Smart Object24.png') no-repeat;
+                    background-size: cover;
+                }
+
+                &-3{
+                    width: 5.4rem;
+                    height: 5.4rem;
+                    background: url('../img/Vector Smart Object25.png') no-repeat;
+                    background-size: cover;
+                }
             }
 
         }

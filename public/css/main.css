@@ -37,6 +37,9 @@ a {
 ul, li {
   list-style: none; }
 
+button {
+  cursor: pointer; }
+
 .header__link-fonts {
   font-family: 'Rubik', sans-serif;
   font-size: 2.1rem;
@@ -195,9 +198,68 @@ ul, li {
 
 .subscription__item-text-how {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.85rem;
+  font-size: 1.8rem;
   text-align: left;
+  line-height: 1.3;
   width: 51%; }
+  .subscription__item-text-how-span {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #4d008c; }
+
+.subscription__short-item-title-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.3;
+  color: #4d008c; }
+
+.subscription__short-item-subtitle-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 1.4;
+  color: #363636;
+  margin-left: 1.7rem; }
+  .subscription__short-item-subtitle-text-span {
+    font-weight: bold; }
+
+.system__item-title-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.4rem;
+  color: #353535;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.3; }
+
+.system__item-subtitle-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  color: #353535;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.2; }
+
+.btn {
+  background: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #c5508a;
+  text-align: center;
+  border: none;
+  width: 100%;
+  padding: 1rem 0rem; }
+
+.btn:active {
+  opacity: 0.75;
+  color: #f5087e;
+  background: grey; }
 
 .header__top {
   width: 90.3%;
@@ -639,8 +701,8 @@ ul, li {
 .subscription__bg {
   width: 100%;
   background-image: url("../img/Vector Smart Object copy 101.png");
-  -webkit-background-size: inherit inherit;
-          background-size: inherit; }
+  -webkit-background-size: contain;
+          background-size: contain; }
 
 .subscription__item {
   display: -webkit-box;
@@ -656,22 +718,17 @@ ul, li {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 67%;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 65%;
   margin: 0 auto; }
   .subscription__item-text {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -680,7 +737,6 @@ ul, li {
   .subscription__item-circle {
     width: 13.2rem;
     height: 13.2rem;
-    border: 0.1rem solid #c5508a;
     -webkit-border-radius: 50%;
             border-radius: 50%;
     background-color: #c5508a;
@@ -696,7 +752,7 @@ ul, li {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 2rem; }
+    margin: 11rem 2rem 11rem 5rem; }
   .subscription__item-picture {
     display: -webkit-box;
     display: -webkit-flex;
@@ -707,9 +763,15 @@ ul, li {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 40%; }
     .subscription__item-picture-ok {
       background-image: url("../img/Vector Smart Object ok.png");
+      -webkit-background-size: contain;
+              background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
       height: 3.25rem;
@@ -731,22 +793,193 @@ ul, li {
       -webkit-box-align: end;
       -webkit-align-items: flex-end;
           -ms-flex-align: end;
-              align-items: flex-end; }
+              align-items: flex-end;
+      -webkit-transform: translateY(8%);
+          -ms-transform: translateY(8%);
+              transform: translateY(8%); }
     .subscription__item-picture-product_1 {
       width: 12.75rem;
       height: 13.75rem;
       background-image: url("../img/Layer 3 copy 7.png");
-      -webkit-background-size: auto, contain;
-              background-size: auto, contain; }
+      -webkit-background-size: cover;
+              background-size: cover; }
     .subscription__item-picture-product_2 {
       width: 19.85rem;
-      height: 18.9rem;
-      background-image: url("../img/Layer 9 copy 6.png"); }
+      height: 18.4rem;
+      background-image: url("../img/Layer 9 copy 6.png");
+      -webkit-background-size: cover;
+              background-size: cover;
+      margin: 0rem 3rem; }
     .subscription__item-picture-product_3 {
       width: 12rem;
-      height: 13.3rem;
-      background-image: url("../img/AcneEdit_Toner_SlimWell_front copy 2.png"); }
+      height: 13rem;
+      background-image: url("../img/AcneEdit_Toner_SlimWell_front copy 2.png");
+      -webkit-background-size: cover;
+              background-size: cover; }
     .subscription__item-picture-woman {
       width: 32rem;
       height: 35.1rem;
-      background-image: url("../img/Layer 163.png"); }
+      background-image: url("../img/Layer 163.png");
+      -webkit-background-size: cover;
+              background-size: cover;
+      margin-top: 1.5rem; }
+    .subscription__item-picture-product_4 {
+      width: 36.6rem;
+      height: 34rem;
+      background-image: url("../img/Layer 9 copy 6.png");
+      -webkit-background-size: cover;
+              background-size: cover;
+      -webkit-transform: translateY(8%);
+          -ms-transform: translateY(8%);
+              transform: translateY(8%); }
+
+.subscription__short {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 4rem; }
+  .subscription__short-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1rem; }
+    .subscription__short-item-cursor {
+      width: 7.85rem;
+      height: 8.75rem;
+      background: url("../img/Vector Smart Object hand.png");
+      background-repeat: no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain;
+      padding-left: 8rem; }
+    .subscription__short-item-content {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .subscription__short-item-icon {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 13.65rem;
+      height: 13.65rem;
+      -webkit-border-radius: 25%;
+              border-radius: 25%;
+      background-color: #4d008c;
+      margin: 0rem 0.5rem; }
+      .subscription__short-item-icon-1 {
+        width: 9.3rem;
+        height: 5.5rem;
+        background: url("../img/Vector Smart Object23.png") no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover; }
+      .subscription__short-item-icon-2 {
+        width: 5.25rem;
+        height: 5.25rem;
+        background: url("../img/Vector Smart Object24.png") no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover; }
+      .subscription__short-item-icon-3 {
+        width: 5.4rem;
+        height: 5.4rem;
+        background: url("../img/Vector Smart Object25.png") no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover; }
+
+.system__wrap {
+  width: 60%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+  padding-top: 13.5rem;
+  padding-bottom: 14rem; }
+
+.system__img {
+  width: 100%;
+  height: 100%; }
+
+.system__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25.6%;
+  margin: 0 auto; }
+  .system__item-picture {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 29.2rem;
+    height: 24.15rem;
+    padding-bottom: 1.5rem; }
+  .system__item-text {
+    margin-bottom: auto; }
+  .system__item-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border: 0.25rem solid #c5508a;
+    -webkit-border-radius: 0.6rem;
+            border-radius: 0.6rem;
+    background: #fff;
+    width: 100%;
+    margin-top: 2rem; }

@@ -1,0 +1,34 @@
+.system__item-button{
+
+    &-1{
+
+    }
+
+    &-2{
+
+    }
+
+    &-3{
+
+    }
+
+}
+
+.btn{
+    background: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #c5508a;
+    text-align: center;
+    border: none;
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.btn:active{
+    opacity: 0.75;
+    color: #f5087e;
+    background: grey;
+}

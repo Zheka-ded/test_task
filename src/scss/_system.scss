@@ -1,0 +1,49 @@
+.system{
+
+    &__wrap{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        padding-top: 13.5rem;
+        padding-bottom: 14rem;
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 25.6%;
+        margin: 0 auto;
+
+        &-picture{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 29.2rem;
+            height: 24.15rem;
+            padding-bottom: 1.5rem;
+        }
+
+        &-text{
+            margin-bottom: auto;
+        }
+
+        &-button{
+            display: flex;
+            border: 0.25rem solid #c5508a;
+            border-radius: 0.6rem;
+            background: #fff;
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+    }
+
+}

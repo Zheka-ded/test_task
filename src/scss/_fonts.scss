@@ -263,9 +263,72 @@
 
         &-text-how{
             font-family: 'Rubik', sans-serif;
-            font-size: 1.85rem;        
+            font-size: 1.8rem;        
             text-align: left;
-            width: 51%;    
+            line-height: 1.3;
+            width: 51%;
+
+            &-span{
+                text-transform: uppercase;
+                font-weight: 900;
+                color: #4d008c;
+            }
+        }
+
+    }
+
+    &__short-item{
+
+        &-title-text{
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1.3;
+            color: #4d008c;
+        }
+
+        &-subtitle-text{
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.5rem;
+            text-align: left;
+            line-height: 1.4;
+            color: #363636;
+            margin-left: 1.7rem;
+
+            &-span{
+                font-weight: bold;
+            }
+        }
+        
+    }
+
+}
+
+// !!! SYSTEM FONTS !!! //
+.system{
+
+    &__item{
+
+        &-title-text{
+            font-family: 'Rubik', sans-serif;
+            font-size: 2.4rem;
+            color: #353535;
+            text-align: center;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 1.3;
+        }
+
+        &-subtitle-text{
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.5rem;
+            color: #353535;
+            text-align: center;
+            font-weight: 300;
+            text-transform: uppercase;
+            line-height: 1.2;
         }
 
     }
