@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var connect = require('gulp-connect');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
+var sassLint = require('gulp-sass-lint');
 
 // server
 gulp.task('server', function() {
@@ -33,6 +34,14 @@ gulp.task('html', function () {
 gulp.task('watch', function () {
     gulp.watch('./src/scss/**/*.scss', ['styles'])
     gulp.watch('./src/*.html', ['html']);
+});
+
+// sassLinter
+gulp.task('default', function () {
+  return gulp.src('sass/**/*.s+(a|c)ss')
+    .pipe(sassLint())
+    .pipe(sassLint.format())
+    .pipe(sassLint.failOnError())
 });
 
 gulp.task('default', ['html', 'styles', 'server', 'watch']);

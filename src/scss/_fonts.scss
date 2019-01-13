@@ -334,3 +334,33 @@
     }
 
 }
+
+// !!! FOOTER FONTS !!! //
+.footer{
+
+    &__nav{
+
+        &-link{
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.2rem;
+            line-height: 2;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+        }
+
+    }
+
+    &__social{
+
+        &-text{
+            font-family: 'Rubik', sans-serif;
+            font-size: 1.2rem;
+            color: #fff;
+            font-weight: 200;
+            line-height: 2;
+        }
+
+    }
+
+}

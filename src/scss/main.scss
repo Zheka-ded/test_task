@@ -34,8 +34,8 @@ html{
     font-size: 1.6rem;
 
     &__wrap{
-        // max-width: 1900px;
-        // max-width: 3849px;
+        // max-width: 1920px;
+        // max-width: 3840px;
         width: 100%;
         // max-width: 192rem;
         min-width: 32rem;
@@ -57,3 +57,4 @@ html{
 @import 'explained';
 @import 'subscription';
 @import 'system';
+@import 'footer';
