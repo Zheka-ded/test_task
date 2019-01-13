@@ -181,6 +181,24 @@ ul, li {
   color: #363636;
   line-height: 1.3; }
 
+.subscription__title-top {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #4d008c; }
+
+.subscription__item-text-step {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 2.8rem;
+  color: #fff;
+  text-align: center; }
+
+.subscription__item-text-how {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.85rem;
+  text-align: left;
+  width: 51%; }
+
 .header__top {
   width: 90.3%;
   display: -webkit-box;
@@ -607,12 +625,128 @@ ul, li {
   .explained__description {
     padding-bottom: 2.5rem; }
 
-.subscription__item-picture-top {
+.subscription__wrap {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 5rem;
-  background: url("../img/Vector Smart Object ok.png") no-repeat;
-  -webkit-filter: brightness(1) invert(1);
-          filter: brightness(1) invert(1); }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.subscription__bg {
+  width: 100%;
+  background-image: url("../img/Vector Smart Object copy 101.png");
+  -webkit-background-size: inherit inherit;
+          background-size: inherit; }
+
+.subscription__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 67%;
+  margin: 0 auto; }
+  .subscription__item-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 60%; }
+  .subscription__item-circle {
+    width: 13.2rem;
+    height: 13.2rem;
+    border: 0.1rem solid #c5508a;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    background-color: #c5508a;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2rem; }
+  .subscription__item-picture {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 40%; }
+    .subscription__item-picture-ok {
+      background-image: url("../img/Vector Smart Object ok.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 3.25rem;
+      -webkit-filter: brightness(1) invert(1);
+              filter: brightness(1) invert(1);
+      -webkit-transform: translateY(-100%);
+          -ms-transform: translateY(-100%);
+              transform: translateY(-100%); }
+    .subscription__item-picture-product {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+    .subscription__item-picture-product_1 {
+      width: 12.75rem;
+      height: 13.75rem;
+      background-image: url("../img/Layer 3 copy 7.png");
+      -webkit-background-size: auto, contain;
+              background-size: auto, contain; }
+    .subscription__item-picture-product_2 {
+      width: 19.85rem;
+      height: 18.9rem;
+      background-image: url("../img/Layer 9 copy 6.png"); }
+    .subscription__item-picture-product_3 {
+      width: 12rem;
+      height: 13.3rem;
+      background-image: url("../img/AcneEdit_Toner_SlimWell_front copy 2.png"); }
+    .subscription__item-picture-woman {
+      width: 32rem;
+      height: 35.1rem;
+      background-image: url("../img/Layer 163.png"); }

@@ -1,15 +1,114 @@
 .subscription{
-    &__item{
-        &-picture{
-            &-top{
-                display: flex;
-                // width: 5rem;
-                height: 5rem;
-                // height: 100%;
-                background: url('../img/Vector Smart Object ok.png') no-repeat;
-                // background-size: contain;
-                filter: brightness(1) invert(1);
-            }
-        }
+    // display: flex;
+    // margin: 0 auto;
+    // width: 100%;
+
+    &__wrap{
+        display: flex;
+        flex-direction:column;
+        // justify-content: center;
+        // align-items: center;
+        // margin: 0 auto;
     }
+
+    &__title{
+
+    }
+
+    &__img{
+        // width: 3.3rem;
+        // height: 3.25rem;
+        // filter: brightness(1) invert(1);
+    }
+
+    &__bg{
+        width: 100%;
+        background-image: url('../img/Vector Smart Object copy 101.png');
+        background-size: inherit;
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 67%;
+        margin: 0 auto;
+
+        &-text{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            width: 60%;
+        }
+
+        &-circle{
+            width: 13.2rem;
+            height: 13.2rem;
+            border: 0.1rem solid #c5508a;
+            border-radius: 50%;
+            background-color: #c5508a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem;
+        }
+
+        &-picture{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            // margin: auto;
+
+            &-ok{
+                // display: flex;
+                // justify-content: center;
+                background-image: url('../img/Vector Smart Object ok.png');
+                background-repeat: no-repeat;
+                // background-size: cover;
+                // background-size: contain;
+                background-position: center;
+                // width: 3.3rem;
+                height: 3.25rem;
+                filter: brightness(1) invert(1);
+                // padding: 0rem;
+                // margin: 0rem;
+                transform: translateY(-100%);
+            }
+
+            &-product{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+            }
+
+            &-product_1{
+                width: 12.75rem;
+                height: 13.75rem;
+                background-image: url('../img/Layer 3 copy 7.png');
+                background-size: auto, contain;
+            }
+
+            &-product_2{
+                width: 19.85rem;
+                height: 18.9rem;
+                background-image: url('../img/Layer 9 copy 6.png');
+            }
+
+            &-product_3{
+                width: 12rem;
+                height: 13.3rem;
+                background-image: url('../img/AcneEdit_Toner_SlimWell_front copy 2.png');
+            }
+
+            &-woman{
+                width: 32rem;
+                height: 35.1rem;
+                background-image: url('../img/Layer 163.png');
+            }
+
+        }
+
+    }
+
 }
