@@ -8,16 +8,23 @@
         flex-direction: column;
     }
 
-    &__top{
+    &__title{
         padding-bottom: 5.5rem;
-        &-text{
-
-        }
-
     }
 
     &__description{
         padding-bottom: 2.5rem;
     }
     
+}
+
+@media (max-width: 751px) {
+    .explained{
+        width: 98%;
+        align-items: center;
+
+        &__wrap{
+            padding: 0 3rem;
+        }
+    }
 }

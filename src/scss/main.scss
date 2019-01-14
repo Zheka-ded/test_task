@@ -2,11 +2,13 @@ html{
     font-size: 10px;
 }
 
+
 @media (min-width: 2400px) {
     html{
         font-size: 20px;
     }
 }
+
 
 @media (max-width: 1600px) {
     html{
@@ -22,7 +24,7 @@ html{
 
 @media (max-width: 1020px) {
     html{
-        font-size: 6px;
+        font-size: 7px;
     }
 }
 
@@ -34,11 +36,8 @@ html{
     font-size: 1.6rem;
 
     &__wrap{
-        // max-width: 1920px;
-        // max-width: 3840px;
-        width: 100%;
-        // max-width: 192rem;
-        min-width: 32rem;
+        max-width: 192rem;
+        min-width: 16rem;
         margin: 0 auto;
     }
 

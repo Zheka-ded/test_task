@@ -1,7 +1,3 @@
-.about-products{
-    
-}
-
 .about{
 
     &__wrap{
@@ -16,8 +12,15 @@
         padding-bottom: 1.5rem;
     }
 
-    &__subtitle-text{
+}
+
+@media (max-width: 751px) {
+    .about{
+
+        &__wrap{
+            padding-left: 1.5rem;
+            padding-right: 1.5rem
+        }
 
     }
-
 }

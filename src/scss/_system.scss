@@ -1,7 +1,7 @@
 .system{
 
     &__wrap{
-        width: 60%;
+        width: 70%;
         display: flex;
         flex-direction: row;
         margin: 0 auto;
@@ -12,16 +12,13 @@
     &__img{
         max-width: 29.2rem;
         max-height: 24.15rem;
-        // width: 100%;
-        // height: 100%;
     }
 
     &__item{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
-        width: 25.6%;
+        width: 29rem;
         margin: 0 auto;
         padding: 0rem 2rem;
 
@@ -53,4 +50,32 @@
 
     }
 
+}
+
+@media (max-width: 751px) {
+    .system{
+
+        &__wrap{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        &__img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        &__item{
+            width: 100%;
+            height: 100%;
+            padding: 5rem 3rem;
+        }
+
+        &__item-picture{
+            width: 100%;
+            height: 100%;
+        }
+        
+    }
 }
